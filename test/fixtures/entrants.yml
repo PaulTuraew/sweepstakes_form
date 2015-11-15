@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  date_of_birth: 2015-11-14
+  zip_code: 1
+  cable_satellite: MyString
+  subscribe: false
+
+two:
+  first_name: MyString
+  last_name: MyString
+  email: MyString
+  date_of_birth: 2015-11-14
+  zip_code: 1
+  cable_satellite: MyString
+  subscribe: false
