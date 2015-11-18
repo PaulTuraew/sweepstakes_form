@@ -10,7 +10,9 @@ body {
     background-color: #3999cc;
     max-width: 948px;
     margin: 0 auto;
-    background-image: url('../images/blue_line_pattern.gif');
+    background-image: url('blue_line_pattern.gif');
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 article {
@@ -31,6 +33,6 @@ section {
 }
 
 #form {
-    background-image: url('../images/grey_line_pattern.gif');
+    background-image: url('grey_line_pattern.gif');
     margin: 0 5px 0 5px;
 }
