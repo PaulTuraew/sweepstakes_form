@@ -1,5 +1,108 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="../../assets/stylesheets/style.css" type="text/css" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="images/header_image.jpg" alt="Win Vacation - main header image" width="948" height="519" />
+        <article>
+            <section id="copy">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque consequat tortor ex, et ornare augue laoreet ac. Sed non ligula arcu. Phasellus pellentesque, lorem in bibendum facilisis, tellus elit porta odio, in commodo lorem dolor vitae neque. Vivamus gravida tincidunt consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis at neque a lacus vulputate bibendum. Pellentesque a tellus molestie, bibendum quam nec, cursus nulla. Duis a mauris ut felis porta sollicitudin at id odio. Etiam at ex orci.</p>
+                <br>
+                <p>Pellentesque sit amet auctor ante. Suspendisse id laoreet ligula, in ornare metus. Phasellus in condimentum diam. Sed sit amet molestie justo, at pellentesque ligula. Mauris egestas posuere justo, vitae scelerisque neque lacinia quis. Maecenas arcu elit, maximus a porta at, mattis vulputate velit. Nam at euismod erat. Aliquam sollicitudin rutrum libero, non vehicula lacus mattis posuere. Nulla nisi felis, porttitor vel maximus et, condimentum id nisl. Vivamus congue sit amet nisl quis condimentum. Aliquam erat volutpat. Pellentesque varius dolor tempor justo malesuada consectetur.</p>
+            </section>
+            <section>
+                <img src="images/subheader_youcouldwin.png" alt="" width="808" height="98" / style="padding-left: 5px">
+            </section>
+            <section id="copy">
+                <p><img src="images/icon_airfare.png" /> Roundtrip airfare to Orlando, Florida</p>
+                <p><img src="images/icon_transportation.png" /> Ground transportation between airport and hotel in Orlando</p>
+                <p><img src="images/icon_admission.png" /> Admission to both theme parks</p>
+                <p><img src="images/icon_accommodations.png" /> Accomodations on-site at the Beach Resort</p>
+                <p><img src="images/icon_tickets.png" /> Tickets to a live-event</p>
+                <p><img src="images/icon_waterparks.png" /> Admission to the waterpark</p>
+                <p><img src="images/icon_opening.png" /> Plus, you'll attend the Grand Opening of the Sports Grill*</p>
+                <p id="details">For more information on Universal ORlando Resort and For Great Deals on Vacation Packages, visit <a href="#">vacationpackages.com!</a></p>
+            </section>
+            <section>
+                <img src="images/subheader_enterhere.png" alt="" width="808" height="98" / style="padding-left: 5px">
+            </section>
+            <section>
+                <div class="container-fluid" id="form">
+                    <div class="row">
+                        <!--trial-->
+                        <div class="row">
+                            <div class="col-xs-6 form-group">
+                                <label class="control-label " for="fname">
+                                    FIRST NAME
+                                </label>
+                                <input class="form-control" id="fname" name="fname" type="text" />
+                            </div>
+                            <div class="col-xs-6 form-group">
+                                <label class="control-label " for="lname">
+                                    LAST NAME
+                                </label>
+                                <input class="form-control" id="lname" name="lname" type="text" />
+                            </div>
+                            <div class="col-xs-6 form-group">
+                                <label class="control-label " for="email">
+                                    EMAIL
+                                </label>
+                                <input class="form-control" id="email" name="email" type="text" />
+                            </div>
+                            <div class="col-xs-6 form-group">
+                                <label class="control-label " for="name">
+                                    DATE OF BIRTH
+                                </label>
+                                <input class="form-control" id="name" name="name" placeholder="MM/DD/YYYY" type="text" />
+                            </div>
+                            <div class="col-xs-6 form-group">
+                                <label class="control-label " for="zip">
+                                    ZIP CODE
+                                </label>
+                                <input class="form-control" id="zip" name="zip" type="text" />
+                            </div>
+                            <div class="col-xs-6 form-group">
+                                <label class="control-label " for="select">
+                                    Cable/Satellite Provider
+                                </label>
+                                <select class="select form-control" id="select" name="select">
+                                    <option selected="selected" value="">
+                                    </option>
+                                    <option value="Verizon">
+                                        Verizon
+                                    </option>
+                                    <option value="AT&amp;T">
+                                        AT&amp;T
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+                        <!--end trial-->
+                    </div>
+                </div>
+                <p>
+                    <form>
+                        <input type="checkbox" name="receivenews" value="news"> Yes, I would like to receive news and special offers from the resort!
+                    </form>
+                </p>
+            </section>
+        </article>
+    </div>
+</body>
+
+</html>
 
 
 

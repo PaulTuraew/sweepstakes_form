@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    background: #6ec4f1 !important;
+}
+
+.container {
+    background-color: #3999cc;
+    max-width: 948px;
+    margin: 0 auto;
+    background-image: url('../images/blue_line_pattern.gif');
+}
+
+article {
+    margin: 10px 65px 10px 65px;
+}
+
+section {
+    background-color: #ffffff;
+}
+
+#copy {
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+#details{
+    text-align: center;
+}
+
+#form {
+    background-image: url('../images/grey_line_pattern.gif');
+    margin: 0 5px 0 5px;
+}
