@@ -35,4 +35,25 @@ section {
 #form {
     background-image: url('grey_line_pattern.gif');
     margin: 0 5px 0 5px;
+    padding-top: 10px;
+}
+
+#form-section{
+    padding-top: 40px;
+}
+
+.btn-custom{
+    background: #3999cc;
+    color: #ffffff;
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    margin-bottom: 20px !important;
+    margin-left: 20px !important;
+}
+
+#fineprint{
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.8em;
+    font-weight: 300;
 }
